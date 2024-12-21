@@ -1,21 +1,25 @@
-import project from "../data/project.json";
+import { FaArrowTurnUp } from "react-icons/fa6";
 
 const Project = () => {
   return (
-    <div className='bg-gray-800 h-full rounded-lg p-6 shadow-md flex flex-col justify-center'>
-      <h2 className='text-xl font-bold text-indigo-400 mb-4'>
-        Notable Project
-      </h2>
-      <p className='font-medium'>{project.name}</p>
-      <p className='text-sm text-gray-400 mb-4'>{project.description}</p>
+    <div className='bg-gray-800 rounded-lg shadow-md p-4 flex flex-col items-center justify-center h-full'>
       <a
-        href={project.link}
+        href='https://github.com/tyleroneil72/duordle'
         target='_blank'
         rel='noopener noreferrer'
-        className='text-indigo-400 hover:text-indigo-500 underline'
+        className='flex justify-center w-full'
       >
-        View on GitHub
+        <img
+          src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=duordle&theme=material-palenight&title_color=FFF'
+          alt='Duordle GitHub Repository'
+          className='rounded-lg'
+        />
       </a>
+      <div className='mt-4 flex flex-col items-center'>
+        <span className='text-slate-50 bg-indigo-500 rounded flex items-center px-3 py-2'>
+          I am currently Working on&nbsp;&nbsp; <FaArrowTurnUp />
+        </span>
+      </div>
     </div>
   );
 };
