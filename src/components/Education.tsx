@@ -1,10 +1,11 @@
 import education from "../assets/data/education.json";
+import { FaGraduationCap } from "react-icons/fa";
 
 const Education = () => {
   return (
     <div className='bg-gray-800 h-full rounded-lg p-4 shadow-md flex flex-col justify-center space-y-3'>
-      <h2 className='text-xl font-bold text-indigo-400 border-b border-gray-700 pb-2'>
-        Education
+      <h2 className='text-xl font-bold text-indigo-400 border-b border-gray-700 pb-2 flex items-center gap-2'>
+        <FaGraduationCap /> Education
       </h2>
       <p className='text-sm'>
         <strong>{education.institution}</strong> - {education.program}
