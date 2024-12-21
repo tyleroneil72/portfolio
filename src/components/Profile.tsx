@@ -4,6 +4,7 @@ import { IoTime } from 'react-icons/io5';
 import headshot from '../assets/images/headshot.png';
 import { getCurrentTimeAndOffset } from '../utils/timeUtils';
 import Typewriter from '../utils/Typewriter';
+import ResumeButton from './ResumeButton'; // Import the static button
 
 const Profile = () => {
   const [currentTime, setCurrentTime] = useState('');
@@ -72,14 +73,7 @@ const Profile = () => {
       </div>
 
       {/* Resume Button */}
-      <a
-        href='/Tyler-Oneil-Resume.pdf'
-        target='_blank'
-        rel='noopener noreferrer'
-        className='rounded-lg bg-indigo-500 px-6 py-2 text-center text-sm text-white hover:bg-indigo-600 md:px-8 md:py-3 md:text-base lg:px-8 lg:py-3 lg:text-lg'
-      >
-        View Resume
-      </a>
+      <ResumeButton />
     </div>
   );
 };
