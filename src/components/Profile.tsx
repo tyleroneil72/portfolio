@@ -1,7 +1,31 @@
 import { FaMapMarkerAlt, FaGithub, FaLinkedin } from "react-icons/fa";
+import { IoTime } from "react-icons/io5";
+import { useState, useEffect } from "react";
 import headshot from "../assets/images/headshot.png";
 
 const Profile = () => {
+  const [currentTime, setCurrentTime] = useState(
+    new Date().toLocaleTimeString([], {
+      timeZone: "America/Toronto",
+      hour: "numeric",
+      minute: "numeric",
+    })
+  );
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentTime(
+        new Date().toLocaleTimeString([], {
+          timeZone: "America/Toronto",
+          hour: "numeric",
+          minute: "numeric",
+        })
+      );
+    }, 1000);
+
+    return () => clearInterval(intervalId);
+  }, []);
+
   return (
     <div className='bg-gray-800 rounded-lg shadow-md p-6 flex flex-col items-center h-full justify-center'>
       {/* Profile Photo */}
@@ -20,9 +44,17 @@ const Profile = () => {
       </p>
 
       {/* Location */}
-      <div className='flex items-center space-x-2 text-sm md:text-base lg:text-lg text-gray-400 mb-4'>
-        <FaMapMarkerAlt />
-        <span>Toronto, Ontario</span>
+      <div className='flex flex-col items-center text-sm md:text-base lg:text-lg text-gray-400 mb-4'>
+        <div className='flex items-center space-x-2'>
+          <FaMapMarkerAlt />
+          <span>Toronto, Ontario</span>
+        </div>
+        <div className='flex items-center space-x-2'>
+          <IoTime />
+          <span>
+            {currentTime} <span className='text-gray-500'>(UTC -05:00)</span>
+          </span>
+        </div>
       </div>
 
       {/* Social Links */}
