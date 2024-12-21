@@ -7,30 +7,30 @@ import Github from "./components/GitHub";
 
 function App() {
   return (
-    <div className='h-screen w-screen grid grid-rows-3 grid-cols-3 gap-4 px-8 py-6 bg-gray-900 text-white'>
+    <div className='min-h-screen bg-gray-900 text-white flex flex-col md:grid md:grid-rows-3 md:grid-cols-3 gap-4 px-4 py-6'>
       {/* Profile Card */}
-      <div className='row-span-2 col-span-1'>
+      <div className='md:row-span-2 md:col-span-1'>
         <Profile />
       </div>
 
       {/* Education and Notable Project */}
-      <div className='row-span-1 col-span-1'>
+      <div className='md:row-span-1 md:col-span-1'>
         <Education />
       </div>
-      <div className='row-span-1 col-span-1'>
+      <div className='md:row-span-1 md:col-span-1'>
         <Project />
       </div>
 
       {/* Experience and Skills */}
-      <div className='row-span-2 col-span-1'>
+      <div className='md:row-span-2 md:col-span-1'>
         <Experience />
       </div>
-      <div className='row-span-1 col-span-1'>
+      <div className='md:row-span-1 md:col-span-1'>
         <Skills />
       </div>
 
       {/* GitHub Contribution Graph */}
-      <div className='row-span-1 col-span-3'>
+      <div className='md:row-span-1 md:col-span-3'>
         <Github />
       </div>
     </div>

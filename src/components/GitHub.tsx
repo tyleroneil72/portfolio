@@ -1,13 +1,38 @@
-const GitHub = () => {
+import GitHubCalendar from "react-github-calendar";
+
+const Github = () => {
+  const calendarTheme = {
+    light: [
+      "rgba(57,56,61,0.35)",
+      "rgba(106,91,205,0.7)",
+      "rgba(106,91,205,0.8)",
+      "rgba(106,91,205,0.9)",
+      "rgba(106,91,205,1)",
+    ],
+    dark: [
+      "rgba(57,56,61,0.35)",
+      "rgba(106,91,205,0.7)",
+      "rgba(106,91,205,0.8)",
+      "rgba(106,91,205,0.9)",
+      "rgba(106,91,205,1)",
+    ],
+  };
+
   return (
-    <div className='bg-gray-800 h-full rounded-lg p-4 shadow-md flex items-center justify-center'>
-      <img
-        src='https://ghchart.rshah.org/tyleroneil72'
-        alt='GitHub Contribution Graph'
-        className='w-full max-w-xl'
+    <div className='bg-gray-800 h-full rounded-lg p-6 shadow-md'>
+      <h2 className='text-xl font-bold text-indigo-400 mb-4'>
+        GitHub Contribution Graph
+      </h2>
+      <GitHubCalendar
+        username='tyleroneil72'
+        fontSize={16}
+        blockSize={14}
+        blockMargin={2}
+        blockRadius={0}
+        theme={calendarTheme}
       />
     </div>
   );
 };
 
-export default GitHub;
+export default Github;
