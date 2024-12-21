@@ -12,6 +12,7 @@ const Project = () => {
         <img
           src='https://github-readme-stats.vercel.app/api/pin/?username=tyleroneil72&repo=duordle&theme=material-palenight&title_color=FFF'
           alt='Duordle GitHub Repository'
+          className='md:hover:scale-105 hover:scale:100 transition-transform'
         />
       </a>
       <div className='mt-4 flex flex-col items-center'>
