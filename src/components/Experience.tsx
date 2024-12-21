@@ -9,7 +9,7 @@ const Experience = () => {
       </h2>
       {experience.map((job, index) => (
         <div key={index} className='mb-2 rounded-lg bg-slate-700 p-2 shadow-md'>
-          <h3 className='font-bold text-white'>
+          <h3 className='font-bold'>
             {job.role} - {job.company}
           </h3>
           <p className='text-sm text-gray-300'>{job.period}</p>
