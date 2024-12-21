@@ -19,7 +19,7 @@ const Education = () => {
           {education.involvementAndAchievements.map((item, index) => (
             <li key={index} className='text-sm'>
               <strong>{item.title}</strong>
-              {item.organization && ` at ${item.organization}`} <span>({item.period})</span>
+              {item.organization && `,  ${item.organization}`} <span>({item.period})</span>
             </li>
           ))}
         </ul>
