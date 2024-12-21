@@ -40,7 +40,7 @@ const Profile = () => {
       </p>
 
       {/* Location */}
-      <div className='flex flex-col items-center text-sm md:text-base lg:text-lg text-gray-400 mb-4'>
+      <div className='flex flex-col items-center text-sm md:text-base lg:text-lg  mb-4'>
         <div className='flex items-center space-x-2'>
           <FaMapMarkerAlt />
           <span>Toronto, Ontario</span>
@@ -48,7 +48,7 @@ const Profile = () => {
         <div className='flex items-center space-x-2'>
           <IoTime />
           <span>
-            {currentTime} <span className='text-gray-500'>({utcOffset})</span>
+            {currentTime} ({utcOffset})
           </span>
         </div>
       </div>
