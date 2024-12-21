@@ -22,8 +22,8 @@ const GitHub = () => {
     <div className='bg-gray-800 rounded-lg p-4 shadow-md w-full flex items-center justify-center'>
       <GitHubCalendar
         username='tyleroneil72'
-        fontSize={10}
-        blockSize={8}
+        fontSize={12}
+        blockSize={10}
         blockMargin={2}
         blockRadius={0}
         theme={calendarTheme}
