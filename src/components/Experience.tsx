@@ -8,12 +8,12 @@ const Experience = () => {
         <FaBriefcase /> Experience
       </h2>
       {experience.map((job, index) => (
-        <div key={index} className='mb-6'>
-          <h3 className='font-bold'>
+        <div key={index} className='mb-2 rounded-lg bg-slate-700 p-2 shadow-md'>
+          <h3 className='font-bold text-white'>
             {job.role} - {job.company}
           </h3>
-          <p className='text-sm text-gray-400'>{job.period}</p>
-          <ul className='mt-2 list-disc pl-5 text-sm'>
+          <p className='text-sm text-gray-300'>{job.period}</p>
+          <ul className='mt-2 list-disc pl-5 text-sm text-gray-300'>
             {job.details.map((detail, idx) => (
               <li key={idx}>{detail}</li>
             ))}
