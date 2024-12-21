@@ -3,7 +3,21 @@
   "program": "Advanced Diploma, Computer Programming and Analysis",
   "graduationDate": "April 2025",
   "gpa": "3.85/4.0",
-  "achievements": [
-    "Dean’s List – Fall 2022, Winter 2023, Fall 2023, Winter 2024, Fall 2024"
+  "involvementAndAchievements": [
+    {
+      "title": "Vice President",
+      "organization": "Computer Science Club",
+      "period": "2024 – Present"
+    },
+    {
+      "title": "Academic Tutor",
+      "organization": "Mobihelp Program",
+      "period": "2024 – Present"
+    },
+    {
+      "title": "Teaching Assistant",
+      "organization": "First-Year Programming Courses",
+      "period": "Fall 2023 – Winter 2024"
+    }
   ]
 }
