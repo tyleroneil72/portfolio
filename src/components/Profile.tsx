@@ -3,24 +3,30 @@ import headshot from "../assets/headshot.png";
 
 const Profile = () => {
   return (
-    <div className='bg-gray-800 rounded-lg flex flex-col items-center p-6 shadow-md h-full'>
+    <div className='bg-gray-800 rounded-lg shadow-md p-6 flex flex-col items-center h-full justify-center'>
       {/* Profile Photo */}
       <img
         src={headshot}
-        alt="Tyler O'Neil"
-        className='w-[160px] h-[160px] rounded-full object-cover mb-4 lg:w-[180px] lg:h-[180px]'
+        alt="Tyler O'Neil's profile photo"
+        className='w-[140px] h-[140px] md:w-[160px] md:h-[160px] rounded-full object-cover border-4 border-gray-700 mb-4'
       />
+
+      {/* Name and Role */}
       <h1 className='text-xl lg:text-2xl font-bold leading-tight text-center'>
         Tyler O'Neil
       </h1>
-      <p className='text-sm lg:text-base text-gray-400 text-center'>
+      <p className='text-sm lg:text-base text-gray-400 mb-3'>
         Software Developer
       </p>
-      <div className='mt-2 flex items-center justify-center space-x-2 text-sm lg:text-base'>
+
+      {/* Location */}
+      <div className='flex items-center space-x-2 text-sm lg:text-base text-gray-400 mb-4'>
         <FaMapMarkerAlt />
         <span>Toronto, Ontario</span>
       </div>
-      <div className='flex space-x-4 mt-4'>
+
+      {/* Social Links */}
+      <div className='flex space-x-5 mb-6'>
         <a
           href='https://github.com/tyleroneil72'
           target='_blank'
@@ -38,16 +44,16 @@ const Profile = () => {
           <FaLinkedin />
         </a>
       </div>
-      <div className='flex-1 flex items-center'>
-        <a
-          href='/Tyler-Oneil-resume.pdf'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='mt-6 px-6 py-2 bg-indigo-500 text-white rounded hover:bg-indigo-600 inline-block text-center'
-        >
-          View Resume
-        </a>
-      </div>
+
+      {/* Resume Button */}
+      <a
+        href='/Tyler-Oneil-Resume.pdf'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='bg-indigo-500 text-white py-2 px-6 rounded-lg text-center hover:bg-indigo-600'
+      >
+        View Resume
+      </a>
     </div>
   );
 };
