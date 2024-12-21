@@ -4,24 +4,35 @@ import { useState, useEffect } from "react";
 import headshot from "../assets/images/headshot.png";
 
 const Profile = () => {
-  const [currentTime, setCurrentTime] = useState(
-    new Date().toLocaleTimeString([], {
-      timeZone: "America/Toronto",
-      hour: "numeric",
-      minute: "numeric",
-    })
-  );
+  const [currentTime, setCurrentTime] = useState("");
+  const [utcOffset, setUtcOffset] = useState("");
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCurrentTime(
-        new Date().toLocaleTimeString([], {
-          timeZone: "America/Toronto",
-          hour: "numeric",
-          minute: "numeric",
-        })
-      );
-    }, 1000);
+    const updateTime = () => {
+      const date = new Date();
+      const timeZone = "America/Toronto";
+
+      // Get local time in specified time zone
+      const timeString = date.toLocaleTimeString([], {
+        timeZone,
+        hour: "numeric",
+        minute: "numeric",
+      });
+
+      // Calculate UTC offset dynamically
+      const offsetMinutes = -new Date().getTimezoneOffset(); // Offset in minutes
+      const offsetHours = Math.floor(offsetMinutes / 60);
+      const offsetRemainder = Math.abs(offsetMinutes % 60);
+      const formattedOffset = `UTC ${
+        offsetHours >= 0 ? "+" : ""
+      }${offsetHours}:${offsetRemainder.toString().padStart(2, "0")}`;
+
+      setCurrentTime(timeString);
+      setUtcOffset(formattedOffset);
+    };
+
+    updateTime();
+    const intervalId = setInterval(updateTime, 1000); // Update every second
 
     return () => clearInterval(intervalId);
   }, []);
@@ -52,7 +63,7 @@ const Profile = () => {
         <div className='flex items-center space-x-2'>
           <IoTime />
           <span>
-            {currentTime} <span className='text-gray-500'>(UTC -05:00)</span>
+            {currentTime} <span className='text-gray-500'>({utcOffset})</span>
           </span>
         </div>
       </div>
