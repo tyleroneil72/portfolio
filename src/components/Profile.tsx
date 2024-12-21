@@ -3,7 +3,7 @@ import headshot from "../assets/headshot.png";
 
 const Profile = () => {
   return (
-    <div className='bg-gray-800 rounded-lg flex flex-col items-center justify-center p-6 shadow-md flex-1'>
+    <div className='bg-gray-800 rounded-lg flex flex-col items-center p-6 shadow-md h-full'>
       {/* Profile Photo */}
       <img
         src={headshot}
@@ -38,14 +38,16 @@ const Profile = () => {
           <FaLinkedin />
         </a>
       </div>
-      <a
-        href='/Tyler-Oneil-resume.pdf'
-        target='_blank'
-        rel='noopener noreferrer'
-        className='mt-6 px-6 py-2 bg-indigo-500 text-white rounded hover:bg-indigo-600 inline-block text-center'
-      >
-        View Resume
-      </a>
+      <div className='flex-1 flex items-center'>
+        <a
+          href='/Tyler-Oneil-resume.pdf'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='mt-6 px-6 py-2 bg-indigo-500 text-white rounded hover:bg-indigo-600 inline-block text-center'
+        >
+          View Resume
+        </a>
+      </div>
     </div>
   );
 };
