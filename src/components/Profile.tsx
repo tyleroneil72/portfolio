@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin, FaMapMarkerAlt } from 'react-icons/fa';
 import { IoTime } from 'react-icons/io5';
 import headshot from '../assets/images/headshot.png';
 import { getCurrentTimeAndOffset } from '../utils/timeUtils';
+import Typewriter from '../utils/Typewriter';
 
 const Profile = () => {
   const [currentTime, setCurrentTime] = useState('');
@@ -32,7 +33,9 @@ const Profile = () => {
 
       {/* Name and Role */}
       <h1 className='text-center text-xl font-bold leading-tight md:text-2xl lg:text-3xl'>Tyler O'Neil</h1>
-      <p className='mb-3 text-sm text-gray-400 md:text-base lg:text-lg'>Software Developer</p>
+      <p className='mb-3 text-sm text-gray-400 md:text-base lg:text-lg'>
+        <Typewriter text='Software Developer' delay={130} />
+      </p>
 
       {/* Location */}
       <div className='mb-4 flex flex-col items-center text-sm md:text-base lg:text-lg'>
