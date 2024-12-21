@@ -2,6 +2,7 @@ import { FaMapMarkerAlt, FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoTime } from "react-icons/io5";
 import { useState, useEffect } from "react";
 import headshot from "../assets/images/headshot.png";
+import { getCurrentTimeAndOffset } from "../utils/timeUtils";
 
 const Profile = () => {
   const [currentTime, setCurrentTime] = useState("");
@@ -9,24 +10,8 @@ const Profile = () => {
 
   useEffect(() => {
     const updateTime = () => {
-      const date = new Date();
-      const timeZone = "America/Toronto";
-
-      // Get local time in specified time zone
-      const timeString = date.toLocaleTimeString([], {
-        timeZone,
-        hour: "numeric",
-        minute: "numeric",
-      });
-
-      // Calculate UTC offset dynamically
-      const offsetMinutes = -new Date().getTimezoneOffset(); // Offset in minutes
-      const offsetHours = Math.floor(offsetMinutes / 60);
-      const offsetRemainder = Math.abs(offsetMinutes % 60);
-      const formattedOffset = `UTC ${
-        offsetHours >= 0 ? "+" : ""
-      }${offsetHours}:${offsetRemainder.toString().padStart(2, "0")}`;
-
+      const { timeString, formattedOffset } =
+        getCurrentTimeAndOffset("America/Toronto");
       setCurrentTime(timeString);
       setUtcOffset(formattedOffset);
     };
