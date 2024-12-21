@@ -1,5 +1,6 @@
 import { FaCode } from 'react-icons/fa';
 import skills from '../assets/data/skills.json';
+import { skillIcons } from '../utils/skillIcons';
 
 const Skills = () => {
   return (
@@ -8,11 +9,18 @@ const Skills = () => {
         <FaCode /> Skills
       </h2>
       <div className='flex flex-wrap gap-2'>
-        {skills.map((skill, index) => (
-          <span key={index} className='vh-900:py-2 rounded-lg bg-indigo-500 px-3 py-1 text-sm shadow-md'>
-            {skill}
-          </span>
-        ))}
+        {skills.map((skill, index) => {
+          const IconComponent = skillIcons[skill] || null;
+          return (
+            <span
+              key={index}
+              className='vh-900:py-2 flex items-center gap-2 rounded-lg bg-indigo-500 px-3 py-1 text-sm shadow-md'
+            >
+              {IconComponent && <IconComponent />}
+              {skill}
+            </span>
+          );
+        })}
       </div>
     </div>
   );
