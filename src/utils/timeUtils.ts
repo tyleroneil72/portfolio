@@ -4,8 +4,8 @@ export const getCurrentTimeAndOffset = (timeZone: string) => {
   // Get the current time in the specified time zone
   const timeString = date.toLocaleTimeString([], {
     timeZone,
-    hour: "numeric",
-    minute: "numeric",
+    hour: 'numeric',
+    minute: 'numeric'
   });
 
   // Calculate UTC offset dynamically
@@ -13,8 +13,8 @@ export const getCurrentTimeAndOffset = (timeZone: string) => {
   const offsetHours = Math.floor(offsetMinutes / 60);
   const offsetRemainder = Math.abs(offsetMinutes % 60);
   const formattedOffset = `UTC ${
-    offsetHours >= 0 ? "+" : ""
-  }${offsetHours}:${offsetRemainder.toString().padStart(2, "0")}`;
+    offsetHours >= 0 ? '+' : ''
+  }${offsetHours}:${offsetRemainder.toString().padStart(2, '0')}`;
 
   return { timeString, formattedOffset };
 };

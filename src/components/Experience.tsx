@@ -1,10 +1,10 @@
-import experience from "../assets/data/experience.json";
-import { FaBriefcase } from "react-icons/fa";
+import { FaBriefcase } from 'react-icons/fa';
+import experience from '../assets/data/experience.json';
 
 const Experience = () => {
   return (
-    <div className='bg-gray-800 rounded-lg p-6 shadow-md flex flex-col h-full'>
-      <h2 className='text-xl font-bold text-indigo-400 mb-4 flex items-center gap-2'>
+    <div className='flex h-full flex-col rounded-lg bg-gray-800 p-6 shadow-md'>
+      <h2 className='mb-4 flex items-center gap-2 text-xl font-bold text-indigo-400'>
         <FaBriefcase /> Experience
       </h2>
       {experience.map((job, index) => (
@@ -13,7 +13,7 @@ const Experience = () => {
             {job.role} - {job.company}
           </h3>
           <p className='text-sm text-gray-400'>{job.period}</p>
-          <ul className='list-disc pl-5 text-sm mt-2'>
+          <ul className='mt-2 list-disc pl-5 text-sm'>
             {job.details.map((detail, idx) => (
               <li key={idx}>{detail}</li>
             ))}
