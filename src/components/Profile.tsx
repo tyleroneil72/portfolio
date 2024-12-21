@@ -3,15 +3,19 @@ import headshot from "../assets/headshot.png";
 
 const Profile = () => {
   return (
-    <div className='bg-gray-800 h-full rounded-lg flex flex-col items-center justify-center p-6 shadow-md'>
+    <div className='bg-gray-800 rounded-lg flex flex-col items-center justify-center p-6 shadow-md w-full h-full'>
       <img
         src={headshot}
         alt="Tyler O'Neil"
-        className='w-32 h-32 rounded-full object-cover mb-4'
+        className='w-[140px] h-[140px] rounded-full object-cover mb-4'
       />
-      <h1 className='text-2xl font-bold'>Tyler O'Neil</h1>
-      <p className='text-sm text-gray-400'>Software Developer</p>
-      <div className='mt-2 flex items-center space-x-2 text-sm'>
+      <h1 className='text-xl lg:text-2xl font-bold leading-tight text-center'>
+        Tyler O'Neil
+      </h1>
+      <p className='text-sm lg:text-base text-gray-400 text-center'>
+        Software Developer
+      </p>
+      <div className='mt-2 flex items-center justify-center space-x-2 text-sm lg:text-base'>
         <FaMapMarkerAlt />
         <span>Toronto, Ontario</span>
       </div>

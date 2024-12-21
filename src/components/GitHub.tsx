@@ -19,14 +19,11 @@ const Github = () => {
   };
 
   return (
-    <div className='bg-gray-800 rounded-lg p-6 shadow-md'>
-      <h2 className='text-xl font-bold text-indigo-400 mb-4 text-center'>
-        GitHub Contribution Graph
-      </h2>
+    <div className='bg-gray-800 rounded-lg p-8 shadow-md w-full max-w-screen-md'>
       <GitHubCalendar
         username='tyleroneil72'
         fontSize={14}
-        blockSize={14}
+        blockSize={12}
         blockMargin={2}
         blockRadius={0}
         theme={calendarTheme}
