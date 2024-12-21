@@ -4,7 +4,7 @@
     "company": "Exchange Solutions Inc.",
     "period": "May 2024 – August 2024",
     "details": [
-      "Developed features for both frontend and backend, working on the full stack of the loyalty product.",
+      "Developed features for both frontend and backend, working on the full stack of the loyalty product for clients such as Rexall and Esso",
       "Used AWS Lambda and a serverless stack to build scalable microservices.",
       "Enhanced the user interface using React.js while improving API integrations on the backend."
     ]
@@ -24,9 +24,9 @@
     "company": "PresenTEC",
     "period": "September 2022 – December 2022",
     "details": [
-      "Designed and developed user interfaces for the company's main product using React.js.",
+      "Designed and developed user interfaces for the company's main product using Wordpress",
       "Implemented responsive designs and optimized frontend performance.",
-      "Collaborated with backend developers to integrate APIs and improve user experience."
+      "Utilized HTML and CSS to fine-tune website layouts and styles, optimizing performance and appearance"
     ]
   }
 ]
