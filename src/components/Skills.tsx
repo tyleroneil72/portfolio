@@ -4,11 +4,16 @@ const Skills = () => {
   return (
     <div className='bg-gray-800 h-full rounded-lg p-6 shadow-md'>
       <h2 className='text-xl font-bold text-indigo-400 mb-4'>Skills</h2>
-      <ul className='list-disc pl-5'>
+      <div className='flex flex-wrap gap-2'>
         {skills.map((skill, index) => (
-          <li key={index}>{skill}</li>
+          <span
+            key={index}
+            className='bg-indigo-500 text-white px-3 py-1 rounded-lg text-sm shadow-md'
+          >
+            {skill}
+          </span>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
