@@ -58,7 +58,7 @@ const Profile = () => {
           href='https://github.com/tyleroneil72'
           target='_blank'
           rel='noopener noreferrer'
-          className='text-xl text-indigo-400 hover:text-indigo-500 lg:text-2xl'
+          className='text-xl text-indigo-400 transition-all hover:text-indigo-500 lg:text-2xl'
         >
           <FaGithub />
         </a>
@@ -66,7 +66,7 @@ const Profile = () => {
           href='https://linkedin.com/in/tyler-oneil-dev'
           target='_blank'
           rel='noopener noreferrer'
-          className='text-xl text-indigo-400 hover:text-indigo-500 lg:text-2xl'
+          className='text-xl text-indigo-400 transition-all hover:text-indigo-500 lg:text-2xl'
         >
           <FaLinkedin />
         </a>

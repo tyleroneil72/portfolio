@@ -3,7 +3,7 @@ const ResumeButton = () => {
     <a
       href='/Tyler-Oneil-Resume.pdf'
       target='_blank'
-      rel='noreferrer'
+      rel='noopener noreferrer'
       className='group relative overflow-visible px-6 py-2 font-medium'
     >
       <span className='absolute inset-0 h-full w-full translate-x-0 -skew-x-12 transform bg-indigo-500 transition-all duration-300 ease-out group-hover:skew-x-12 group-hover:bg-indigo-700'></span>
