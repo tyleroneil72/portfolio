@@ -16,7 +16,7 @@ const Project = () => {
         />
       </a>
       <div className='mt-4 flex flex-col items-center'>
-        <span className='text-slate-50 bg-indigo-500 rounded flex items-center px-3 py-2'>
+        <span className='bg-indigo-500 rounded flex items-center px-3 py-2'>
           I am currently Working on&nbsp;&nbsp; <FaArrowTurnUp />
         </span>
       </div>
