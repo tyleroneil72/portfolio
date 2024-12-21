@@ -1,5 +1,5 @@
 import { FaMapMarkerAlt, FaGithub, FaLinkedin } from "react-icons/fa";
-import headshot from "../assets/headshot.png";
+import headshot from "../assets/images/headshot.png";
 
 const Profile = () => {
   return (

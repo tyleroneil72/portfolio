@@ -1,6 +1,6 @@
 import GitHubCalendar from "react-github-calendar";
 
-const Github = () => {
+const GitHub = () => {
   const calendarTheme = {
     light: [
       "rgba(57,56,61,0.35)",
@@ -32,4 +32,4 @@ const Github = () => {
   );
 };
 
-export default Github;
+export default GitHub;

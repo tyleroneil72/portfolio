@@ -3,7 +3,7 @@ import Education from "./components/Education";
 import Project from "./components/Project";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
-import Github from "./components/GitHub";
+import GitHub from "./components/GitHub";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Profile />
         </div>
         <div className='w-full'>
-          <Github />
+          <GitHub />
         </div>
       </div>
 
