@@ -37,9 +37,14 @@ const Profile = () => {
           <FaLinkedin />
         </a>
       </div>
-      <button className='mt-6 px-6 py-2 bg-indigo-500 text-white rounded hover:bg-indigo-600'>
+      <a
+        href='/Tyler-Oneil-Resume.pdf'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='mt-6 px-6 py-2 bg-indigo-500 text-white rounded hover:bg-indigo-600 inline-block text-center'
+      >
         View Resume
-      </button>
+      </a>
     </div>
   );
 };
