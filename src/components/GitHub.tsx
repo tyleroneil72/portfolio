@@ -1,3 +1,4 @@
+// GitHub.tsx
 import GitHubCalendar from "react-github-calendar";
 
 const Github = () => {
@@ -19,11 +20,11 @@ const Github = () => {
   };
 
   return (
-    <div className='bg-gray-800 rounded-lg p-8 shadow-md w-full max-w-screen-md'>
+    <div className='bg-gray-800 rounded-lg p-4 shadow-md w-full'>
       <GitHubCalendar
         username='tyleroneil72'
-        fontSize={14}
-        blockSize={12}
+        fontSize={10}
+        blockSize={8}
         blockMargin={2}
         blockRadius={0}
         theme={calendarTheme}
