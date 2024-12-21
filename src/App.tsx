@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import './assets/css/styles.css';
+
 import Education from './components/Education';
 import Experience from './components/Experience';
 import GitHub from './components/GitHub';
@@ -5,9 +8,25 @@ import Profile from './components/Profile';
 import Project from './components/Project';
 import Skills from './components/Skills';
 
-import './assets/css/styles.css';
-
 function App() {
+  useEffect(() => {
+    const handleBlur = () => {
+      document.title = "Thank You For Visiting! - Tyler O'Neil";
+    };
+
+    const handleFocus = () => {
+      document.title = "Tyler O'Neil";
+    };
+
+    window.addEventListener('blur', handleBlur);
+    window.addEventListener('focus', handleFocus);
+
+    return () => {
+      window.removeEventListener('blur', handleBlur);
+      window.removeEventListener('focus', handleFocus);
+    };
+  }, []);
+
   return (
     <div className='grid min-h-screen grid-cols-1 gap-4 bg-gray-900 p-4 text-white md:grid-cols-2 lg:grid-cols-6'>
       {/* Profile Card + GitHub */}
