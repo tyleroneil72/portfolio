@@ -5,6 +5,8 @@ import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import GitHub from "./components/GitHub";
 
+import "./assets/css/styles.css";
+
 function App() {
   return (
     <div
