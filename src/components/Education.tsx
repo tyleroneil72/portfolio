@@ -1,4 +1,4 @@
-import education from "../data/education.json";
+import education from "../assets/data/education.json";
 
 const Education = () => {
   return (

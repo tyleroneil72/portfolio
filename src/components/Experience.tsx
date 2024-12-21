@@ -1,4 +1,4 @@
-import experience from "../data/experience.json";
+import experience from "../assets/data/experience.json";
 
 const Experience = () => {
   return (
