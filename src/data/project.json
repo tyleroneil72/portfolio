@@ -1,0 +1,13 @@
+{
+  "name": "Duordle",
+  "description": "Multiplayer online word game where users collaboratively guess words.",
+  "techStack": [
+    "TypeScript",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Tailwind CSS"
+  ],
+  "link": "https://github.com/tyleroneil72/duordle"
+}

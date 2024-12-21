@@ -7,7 +7,7 @@ import Github from "./components/GitHub";
 
 function App() {
   return (
-    <div className='h-screen w-screen grid grid-rows-3 grid-cols-3 gap-4 p-4 bg-gray-900 text-white'>
+    <div className='h-screen w-screen grid grid-rows-3 grid-cols-3 gap-4 px-8 py-6 bg-gray-900 text-white'>
       {/* Profile Card */}
       <div className='row-span-2 col-span-1'>
         <Profile />
@@ -22,7 +22,7 @@ function App() {
       </div>
 
       {/* Experience and Skills */}
-      <div className='row-span-1 col-span-1'>
+      <div className='row-span-2 col-span-1'>
         <Experience />
       </div>
       <div className='row-span-1 col-span-1'>

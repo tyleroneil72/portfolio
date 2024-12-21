@@ -1,11 +1,15 @@
-const EducationCard = () => {
+import education from "../data/education.json";
+
+const Education = () => {
   return (
-    <div className='bg-gray-800 h-full rounded-lg p-4 shadow-md'>
+    <div className='bg-indigo-500 h-full rounded-lg p-4 shadow-md'>
       <h2 className='text-xl font-bold mb-2'>Education</h2>
-      <p>George Brown College</p>
-      <p>Computer Programming & Analysis</p>
+      <p>{education.institution}</p>
+      <p>{education.program}</p>
+      <p>{education.graduationDate}</p>
+      <p>{education.gpa}</p>
     </div>
   );
 };
 
-export default EducationCard;
+export default Education;

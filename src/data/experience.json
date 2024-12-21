@@ -1,0 +1,21 @@
+[
+  {
+    "role": "Software Developer Intern",
+    "company": "Exchange Solutions Inc.",
+    "period": "May 2024 – August 2024",
+    "details": [
+      "Developed features for both frontend and backend, working on the full stack of the loyalty product.",
+      "Used AWS Lambda and a serverless stack to build scalable microservices.",
+      "Enhanced the user interface using React.js while improving API integrations on the backend."
+    ]
+  },
+  {
+    "role": "Vice President",
+    "company": "Computer Science Club",
+    "period": "September 2024 – Present",
+    "details": [
+      "Organized and led club meetings, fostering collaboration and engagement among members.",
+      "Planned and coordinated events such as coding workshops and guest speaker sessions."
+    ]
+  }
+]
