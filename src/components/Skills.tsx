@@ -4,11 +4,11 @@ import { skillIcons } from '../utils/skillIcons';
 
 const Skills = () => {
   return (
-    <div className='flex flex-1 flex-col overflow-y-auto rounded-lg bg-gray-800 p-4 shadow-md'>
+    <div className='flex h-full flex-col rounded-lg bg-gray-800 p-6 shadow-md'>
       <h2 className='mb-4 flex items-center gap-2 text-xl font-bold text-indigo-400'>
         <FaCode /> Skills
       </h2>
-      <div className='flex flex-wrap gap-2'>
+      <div className='flex flex-1 flex-wrap gap-2 overflow-y-auto'>
         {skills.map((skill, index) => {
           const IconComponent = skillIcons[skill] || null;
           return (
