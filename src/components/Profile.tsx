@@ -4,7 +4,7 @@ import { IoTime } from 'react-icons/io5';
 import headshot from '../assets/images/headshot.png';
 import { getCurrentTimeAndOffset } from '../utils/timeUtils';
 import Typewriter from '../utils/Typewriter';
-import ResumeButton from './ResumeButton'; // Import the static button
+import ResumeButton from './ResumeButton';
 
 const Profile = () => {
   const [currentTime, setCurrentTime] = useState('');
@@ -25,20 +25,17 @@ const Profile = () => {
 
   return (
     <div className='flex h-full flex-col items-center justify-center rounded-lg bg-gray-800 p-6 shadow-md'>
-      {/* Profile Photo */}
       <img
         src={headshot}
         alt="Tyler O'Neil's profile photo"
         className='mb-4 h-[140px] w-[140px] rounded-full border-4 border-gray-700 object-cover md:h-[160px] md:w-[160px] lg:h-[180px] lg:w-[180px]'
       />
 
-      {/* Name and Role */}
       <h1 className='text-center text-xl font-bold leading-tight md:text-2xl lg:text-3xl'>Tyler O'Neil</h1>
       <p className='mb-3 text-sm text-gray-400 md:text-base lg:text-lg'>
         <Typewriter text='Software Developer' delay={130} />
       </p>
 
-      {/* Location */}
       <div className='mb-4 flex flex-col items-center text-sm md:text-base lg:text-lg'>
         <div className='flex items-center space-x-2'>
           <FaMapMarkerAlt />
@@ -52,7 +49,6 @@ const Profile = () => {
         </div>
       </div>
 
-      {/* Social Links */}
       <div className='mb-6 flex space-x-5'>
         <a
           href='https://github.com/tyleroneil72'
@@ -72,7 +68,6 @@ const Profile = () => {
         </a>
       </div>
 
-      {/* Resume Button */}
       <ResumeButton />
     </div>
   );

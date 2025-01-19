@@ -1,5 +1,3 @@
-// skillIcons.ts
-
 import { IconType } from 'react-icons';
 import {
   FaAws,

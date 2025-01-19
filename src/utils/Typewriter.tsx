@@ -23,7 +23,7 @@ const Typewriter = ({ text, delay }: TypewriterProps) => {
   useEffect(() => {
     const cursorInterval = setInterval(() => {
       setShowCursor((prevShowCursor) => !prevShowCursor);
-    }, 500); // blinking cursor interval
+    }, 500);
 
     return () => clearInterval(cursorInterval);
   }, []);
