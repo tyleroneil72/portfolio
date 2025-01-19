@@ -28,7 +28,7 @@ function App() {
   }, []);
 
   return (
-    <div className='vh-900:mx-20 grid min-h-screen grid-cols-1 gap-4 bg-gray-900 p-4 md:grid-cols-2 lg:grid-cols-6'>
+    <div className='grid min-h-screen grid-cols-1 gap-4 bg-gray-900 p-4 md:grid-cols-2 lg:grid-cols-6'>
       {/* Profile Card + GitHub */}
       <div className='flex h-full flex-col gap-4 md:col-span-2 lg:col-span-2 lg:row-span-3'>
         <div className='h-full flex-1'>
