@@ -1,16 +1,5 @@
 import { IconType } from 'react-icons';
-import {
-  FaAws,
-  FaCode,
-  FaCss3Alt,
-  FaDocker,
-  FaGitAlt,
-  FaHtml5,
-  FaJava,
-  FaNodeJs,
-  FaReact,
-  FaTools
-} from 'react-icons/fa';
+import { FaAws, FaCss3Alt, FaDocker, FaGitAlt, FaHtml5, FaJava, FaNodeJs, FaReact, FaTools } from 'react-icons/fa';
 import {
   SiDotnet,
   SiExpress,
@@ -29,7 +18,7 @@ export const skillIcons: Record<string, IconType> = {
   TypeScript: SiTypescript,
   Python: SiPython,
   Java: FaJava,
-  'C#': FaCode,
+  'C#': SiDotnet,
   HTML: FaHtml5,
   CSS: FaCss3Alt,
   React: FaReact,
