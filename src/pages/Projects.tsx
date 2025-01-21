@@ -29,12 +29,12 @@ const imageMap: Record<string, string> = {
 
 const Projects = () => {
   return (
-    <div className='mx-auto max-w-7xl p-8 pt-14'>
-      <div className='grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+    <div className='mx-auto max-w-full p-8 pt-14'>
+      <div className='grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
         {projectsData.map((project, index) => (
           <div
             key={index}
-            className='group flex flex-col rounded-lg bg-gray-800 p-6 shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg'
+            className='group flex flex-col rounded-lg bg-gray-800 p-6 shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg'
           >
             {imageMap[project.name] && (
               <div className='h-40 w-full overflow-hidden rounded-md bg-gray-700'>
