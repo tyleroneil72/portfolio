@@ -1,18 +1,45 @@
-import projects from '../assets/data/projects.json';
+import { FaGithub } from 'react-icons/fa';
+import projectsData from '../assets/data/projects.json';
+
+import chatbotImg from '../assets/images/chatbot.jpeg';
+import chatRoomImg from '../assets/images/chatRoom.png';
+import connectFourImg from '../assets/images/connectFour.png';
+import duordleImg from '../assets/images/duordle.png';
+import folderImg from '../assets/images/folder.png';
+import GPTerminalImg from '../assets/images/GPTerminal.png';
+import hrAndPayrollImg from '../assets/images/hrAndPayroll.png';
+import learningPathImg from '../assets/images/learningPath.png';
+import portfolioImg from '../assets/images/portfolio.png';
+import sortingImg from '../assets/images/sorting.jpeg';
+import webVoyagerImg from '../assets/images/webVoyager.png';
+
+const imageMap: Record<string, string> = {
+  Duordle: duordleImg,
+  'Web Voyager': webVoyagerImg,
+  'Chat Bot': chatbotImg,
+  'Learning Path Creator': learningPathImg,
+  'HR & Payroll Management System': hrAndPayrollImg,
+  GPTerminal: GPTerminalImg,
+  'Sorting Algorithm Visualizer': sortingImg,
+  'Chat Room': chatRoomImg,
+  'Connect Four with Minimax': connectFourImg,
+  'Portfolio Website': portfolioImg,
+  'Miscellaneous Projects': folderImg
+};
 
 const Projects = () => {
   return (
     <div className='mx-auto max-w-7xl p-8 pt-14'>
       <div className='grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
-        {projects.map((project, index) => (
+        {projectsData.map((project, index) => (
           <div
             key={index}
             className='group flex flex-col rounded-lg bg-gray-800 p-6 shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg'
           >
-            {project.image && (
+            {imageMap[project.name] && (
               <div className='h-40 w-full overflow-hidden rounded-md bg-gray-700'>
                 <img
-                  src={project.image}
+                  src={imageMap[project.name]}
                   alt={`${project.name} thumbnail`}
                   className='h-full w-full object-cover transition-transform duration-300 group-hover:scale-110'
                 />
@@ -38,7 +65,7 @@ const Projects = () => {
                 rel='noopener noreferrer'
                 className='text-indigo-400 hover:text-indigo-500'
               >
-                GitHub
+                <FaGithub className='text-2xl' />
               </a>
               {project.live && (
                 <a
