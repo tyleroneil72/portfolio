@@ -4,43 +4,43 @@
     "description": "Duordle is an online game inspired by Wordle, offering a cooperative word-guessing experience. Built with React, Node.js, and TypeScript, it uses Socket.io for real-time gameplay and Tailwind CSS for responsive design.",
     "github": "https://github.com/tyleroneil72/duordle",
     "live": "https://duordle.net",
-    "tags": ["React", "Node.js", "TypeScript", "Tailwind CSS", "Socket.io"],
+    "tags": ["React", "Node.js", "TypeScript", "Tailwind CSS", "Socket.io", "Docker", "Jest"],
     "image": "/src/assets/images/duordle.png"
   },
   {
     "name": "Web Voyager",
     "description": "A comprehensive travel platform built with ASP.NET Core MVC. Includes secure user authentication with Microsoft's Identity Technology and offers booking for flights, hotels, and car rentals.",
     "github": "https://github.com/tyleroneil72/web-voyager",
-    "tags": ["ASP.NET Core", "C#", "SQL Server", "Bootstrap"],
-    "image": "/src/assets/images/web-voyager.png"
+    "tags": ["ASP.NET Core", "C#", "MySQL", "Bootstrap"],
+    "image": "/src/assets/images/webVoyager.png"
   },
   {
     "name": "Chat Bot",
     "description": "A chatbot application integrated with OpenAI's API to provide natural language processing capabilities. Built using React, Node.js, and Express.js.",
     "github": "https://github.com/tyleroneil72/react-chat-bot",
     "tags": ["React", "Node.js", "Express.js", "OpenAI API"],
-    "image": "/src/assets/images/chatbot.png"
+    "image": "/src/assets/images/chatbot.jpeg"
   },
   {
     "name": "Learning Path Creator",
     "description": "A collaborative learning platform built with the LAMP stack. Uses Linux, Apache, MySQL, and PHP, with Bootstrap for responsive frontend design.",
     "github": "https://github.com/tyleroneil72/learning-path-creator",
     "tags": ["Linux", "Apache", "MySQL", "PHP", "Bootstrap"],
-    "image": "/src/assets/images/learning-path.png"
+    "image": "/src/assets/images/learningPath.png"
   },
   {
     "name": "HR & Payroll Management System",
     "description": "A JavaFX-based HR and Payroll system built with Maven. Features employee management, payroll tracking, and report generation.",
     "github": "https://github.com/tyleroneil72/hr-payroll-system",
     "tags": ["Java", "JavaFX", "Maven"],
-    "image": "/src/assets/images/hr-payroll.png"
+    "image": "/src/assets/images/hrAndPayroll.png"
   },
   {
     "name": "GPTerminal",
     "description": "A CLI application for interactive conversations with GPT models. Supports Linux and MacOS terminals.",
     "github": "https://github.com/tyleroneil72/GPTerminal",
     "tags": ["Python", "OpenAI API", "Command Line"],
-    "image": "/src/assets/images/gpterminal.png"
+    "image": "/src/assets/images/GPTerminal.png"
   },
   {
     "name": "Sorting Algorithm Visualizer",
@@ -48,27 +48,27 @@
     "github": "https://github.com/tyleroneil72/sorting-algorithm-visualizer",
     "live": "https://htmlpreview.github.io/?https://github.com/tyleroneil72/sorting-algorithm-visualizer/blob/main/sorting_algorithms/index.html",
     "tags": ["JavaScript", "HTML", "CSS"],
-    "image": "/src/assets/images/sorting-visualizer.png"
+    "image": "/src/assets/images/sorting.jpeg"
   },
   {
     "name": "Chat Room",
     "description": "A real-time chatroom application using WebSockets. Features multi-room support and real-time messaging.",
     "github": "https://github.com/tyleroneil72/chat-room",
-    "tags": ["React", "Node.js", "Socket.io", "Express.js"],
-    "image": "/src/assets/images/chat-room.png"
+    "tags": ["React", "Node.js", "Typescript", "Socket.io", "Express.js"],
+    "image": "/src/assets/images/chatRoom.png"
   },
   {
     "name": "Connect Four with Minimax",
     "description": "A Java implementation of Connect Four featuring AI built with the Minimax algorithm and alpha-beta pruning.",
     "github": "https://github.com/tyleroneil72/connect-four-mini-max",
     "tags": ["Java", "Algorithm Design"],
-    "image": "/src/assets/images/connect-four.png"
+    "image": "/src/assets/images/connectFour.png"
   },
   {
     "name": "Portfolio Website",
     "description": "This is my portfolio website built using React (Vite), styled with Tailwind CSS, and hosted with Render. The site is designed to showcase my projects, skills, and experiences.",
     "github": "https://github.com/tyleroneil72/portfolio-website",
-    "tags": ["React", "Vite", "Tailwind CSS"],
+    "tags": ["React", "Typescript", "Tailwind CSS"],
     "image": "/src/assets/images/portfolio.png"
   }
 ]
