@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Duordle",
+    "description": "Duordle is an online game inspired by Wordle, offering a cooperative word-guessing experience. Built with React, Node.js, and TypeScript, it uses Socket.io for real-time gameplay and Tailwind CSS for responsive design.",
+    "github": "https://github.com/tyleroneil72/duordle",
+    "live": "https://duordle.net",
+    "tags": ["React", "Node.js", "TypeScript", "Tailwind CSS", "Socket.io", "Docker", "Jest"]
+  },
+  {
+    "name": "Web Voyager",
+    "description": "A comprehensive travel platform built with ASP.NET Core MVC. Includes secure user authentication with Microsoft's Identity Technology and offers booking for flights, hotels, and car rentals.",
+    "github": "https://github.com/tyleroneil72/web-voyager",
+    "tags": ["ASP.NET Core", "C#", "MySQL", "Bootstrap"]
+  },
+  {
+    "name": "Chat Bot",
+    "description": "A chatbot application integrated with OpenAI's API to provide natural language processing capabilities. Built using React, Node.js, and Express.js.",
+    "github": "https://github.com/tyleroneil72/react-chat-bot",
+    "tags": ["React", "Node.js", "Express.js", "OpenAI API"]
+  },
+  {
+    "name": "Learning Path Creator",
+    "description": "A collaborative learning platform built with the LAMP stack. Uses Linux, Apache, MySQL, and PHP, with Bootstrap for responsive frontend design.",
+    "github": "https://github.com/tyleroneil72/learning-path-creator",
+    "tags": ["Linux", "Apache", "MySQL", "PHP", "Bootstrap"]
+  },
+  {
+    "name": "HR & Payroll Management System",
+    "description": "A JavaFX-based HR and Payroll system built with Maven. Features employee management, payroll tracking, and report generation.",
+    "github": "https://github.com/tyleroneil72/hr-payroll-system",
+    "tags": ["Java", "JavaFX", "Maven"]
+  },
+  {
+    "name": "GPTerminal",
+    "description": "A CLI application for interactive conversations with GPT models. Supports Linux and MacOS terminals.",
+    "github": "https://github.com/tyleroneil72/GPTerminal",
+    "tags": ["Python", "OpenAI API", "Command Line"]
+  },
+  {
+    "name": "Sorting Algorithm Visualizer",
+    "description": "A web application to visualize sorting algorithms like Bubble Sort, Quick Sort, and more. Interactive and educational.",
+    "github": "https://github.com/tyleroneil72/sorting-algorithm-visualizer",
+    "live": "https://htmlpreview.github.io/?https://github.com/tyleroneil72/sorting-algorithm-visualizer/blob/main/sorting_algorithms/index.html",
+    "tags": ["JavaScript", "HTML", "CSS"]
+  },
+  {
+    "name": "Chat Room",
+    "description": "A real-time chatroom application using WebSockets. Features multi-room support and real-time messaging.",
+    "github": "https://github.com/tyleroneil72/chat-room",
+    "tags": ["React", "Node.js", "Typescript", "Socket.io", "Express.js"]
+  },
+  {
+    "name": "Connect Four with Minimax",
+    "description": "A Java implementation of Connect Four featuring AI built with the Minimax algorithm and alpha-beta pruning.",
+    "github": "https://github.com/tyleroneil72/connect-four-mini-max",
+    "tags": ["Java", "Algorithm Design"]
+  },
+  {
+    "name": "Portfolio Website",
+    "description": "This is my portfolio website built using React (Vite), styled with Tailwind CSS, and hosted with Render. The site is designed to showcase my projects, skills, and experiences.",
+    "github": "https://github.com/tyleroneil72/portfolio-website",
+    "tags": ["React", "Typescript", "Tailwind CSS"]
+  },
+  {
+    "name": "Miscellaneous Projects",
+    "description": "Repository for my miscellaneous code, pet projects, or just code that doesn't fit into specific categories or projects.",
+    "github": "https://github.com/tyleroneil72/misc-code",
+    "tags": ["Misc", "Python", "C#", "Bash"]
+  }
+]
