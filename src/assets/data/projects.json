@@ -70,5 +70,12 @@
     "github": "https://github.com/tyleroneil72/portfolio-website",
     "tags": ["React", "Typescript", "Tailwind CSS"],
     "image": "/src/assets/images/portfolio.png"
+  },
+  {
+    "name": "Miscellaneous Projects",
+    "description": "Repository for my miscellaneous code, pet projects, or just code that doesn't fit into specific categories or projects.",
+    "github": "https://github.com/tyleroneil72/misc-code",
+    "tags": ["Misc", "Python", "C#", "Bash"],
+    "image": "/src/assets/images/folder.png"
   }
 ]
