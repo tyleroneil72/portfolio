@@ -34,14 +34,14 @@ const Projects = () => {
         {projectsData.map((project, index) => (
           <div
             key={index}
-            className='group flex flex-col rounded-lg bg-gray-800 p-6 shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg'
+            className='group flex flex-col rounded-lg bg-gray-800 p-6 shadow-md transition-transform duration-200 hover:shadow-lg'
           >
             {imageMap[project.name] && (
               <div className='h-40 w-full overflow-hidden rounded-md bg-gray-700'>
                 <img
                   src={imageMap[project.name]}
                   alt={`${project.name} thumbnail`}
-                  className='h-full w-full object-cover transition-transform duration-300 group-hover:scale-110'
+                  className='h-full w-full object-cover transition-transform duration-300'
                 />
               </div>
             )}
