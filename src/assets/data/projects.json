@@ -4,13 +4,13 @@
     "description": "Duordle is an online game inspired by Wordle, offering a cooperative word-guessing experience. Built with React, Node.js, and TypeScript, it uses Socket.io for real-time gameplay and Tailwind CSS for responsive design.",
     "github": "https://github.com/tyleroneil72/duordle",
     "live": "https://duordle.net",
-    "tags": ["React", "Node.js", "TypeScript", "Tailwind CSS", "Socket.io", "Docker", "Jest"]
+    "tags": ["React", "Express.js", "MongoDB", "Node.js", "TypeScript", "Tailwind CSS", "Socket.io", "Docker", "Jest"]
   },
   {
     "name": "Web Voyager",
     "description": "A comprehensive travel platform built with ASP.NET Core MVC. Includes secure user authentication with Microsoft's Identity Technology and offers booking for flights, hotels, and car rentals.",
     "github": "https://github.com/tyleroneil72/web-voyager",
-    "tags": ["ASP.NET Core", "C#", "MySQL", "Bootstrap"]
+    "tags": ["ASP.NET Core", "C#", "jQuery", "Twilio", "AWS", "Azure", "MySQL", "Bootstrap"]
   },
   {
     "name": "Chat Bot",
@@ -34,7 +34,7 @@
     "name": "GPTerminal",
     "description": "A CLI application for interactive conversations with GPT models. Supports Linux and MacOS terminals.",
     "github": "https://github.com/tyleroneil72/GPTerminal",
-    "tags": ["Python", "OpenAI API", "Command Line"]
+    "tags": ["Python", "OpenAI API", "Command Line", "Linux", "MacOS"]
   },
   {
     "name": "Sorting Algorithm Visualizer",
@@ -57,9 +57,9 @@
   },
   {
     "name": "Portfolio Website",
-    "description": "This is my portfolio website built using React (Vite), styled with Tailwind CSS, and hosted with Render. The site is designed to showcase my projects, skills, and experiences.",
+    "description": "This is my portfolio website built using Typescript, React (Vite), styled with Tailwind CSS, and hosted with Render. The site is designed to showcase my projects, skills, and experiences.",
     "github": "https://github.com/tyleroneil72/portfolio-website",
-    "tags": ["React", "Typescript", "Tailwind CSS"]
+    "tags": ["React", "Typescript", "Tailwind CSS", "Render"]
   },
   {
     "name": "Miscellaneous Projects",
