@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useEffect } from 'react';
 import { FaGithub, FaHome } from 'react-icons/fa';
 import { NavLink, useLocation } from 'react-router-dom';
 
@@ -9,6 +10,10 @@ const routes = [
 
 const NavigationBar = () => {
   const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   return (
     <nav className='fixed left-1/2 top-2 z-50 w-[80%] max-w-3xl -translate-x-1/2 transform rounded-full bg-gray-800 text-white shadow-md'>
