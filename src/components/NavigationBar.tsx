@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
-import { FaGithub, FaHome } from 'react-icons/fa';
+import { FaCode, FaHome } from 'react-icons/fa';
 import { NavLink, useLocation } from 'react-router-dom';
 
 const routes = [
   { path: '/', icon: <FaHome /> },
-  { path: '/projects', icon: <FaGithub /> }
+  { path: '/projects', icon: <FaCode /> }
 ];
 
 const NavigationBar = () => {
