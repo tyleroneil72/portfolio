@@ -28,7 +28,7 @@ const ProjectCard = ({ project, image }: ProjectCardProps) => {
 
       <div className='mt-4 flex flex-1 flex-col'>
         <h3 className='text-2xl font-bold text-indigo-400'>{project.name}</h3>
-        <p className='mt-2 rounded-lg bg-indigo-500/20 p-3 text-sm text-indigo-100'>{project.description}</p>
+        <p className='mt-2 rounded-lg bg-slate-700 p-3 text-sm text-gray-300'>{project.description}</p>
       </div>
 
       <div className='mt-4 flex flex-wrap justify-center gap-2'>
