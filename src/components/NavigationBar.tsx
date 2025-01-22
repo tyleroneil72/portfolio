@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { FaGithub, FaHome } from 'react-icons/fa';
 import { NavLink, useLocation } from 'react-router-dom';
 
@@ -10,13 +10,40 @@ const routes = [
 
 const NavigationBar = () => {
   const location = useLocation();
+  const [underlineStyle, setUnderlineStyle] = useState({});
+  const navRef = useRef<HTMLDivElement | null>(null);
+
+  const updateUnderlinePosition = () => {
+    const activeLink = navRef.current?.querySelector('.active');
+    if (activeLink) {
+      const { offsetLeft, offsetWidth } = activeLink as HTMLElement;
+      setUnderlineStyle({
+        left: offsetLeft,
+        width: offsetWidth
+      });
+    }
+  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
 
+  useEffect(() => {
+    updateUnderlinePosition();
+  }, [location.pathname]);
+
+  useEffect(() => {
+    window.addEventListener('resize', updateUnderlinePosition);
+    return () => {
+      window.removeEventListener('resize', updateUnderlinePosition);
+    };
+  }, []);
+
   return (
-    <nav className='fixed left-1/2 top-2 z-50 w-[80%] max-w-3xl -translate-x-1/2 transform rounded-full bg-gray-800 text-white shadow-md'>
+    <nav
+      ref={navRef}
+      className='fixed left-1/2 top-2 z-50 w-[80%] max-w-3xl -translate-x-1/2 transform rounded-full bg-gray-800 text-white shadow-md'
+    >
       <div className='relative flex justify-around py-2'>
         {routes.map(({ path, icon }) => (
           <NavLink
@@ -24,21 +51,19 @@ const NavigationBar = () => {
             to={path}
             className={({ isActive }) =>
               `relative flex items-center justify-center text-lg transition ${
-                isActive ? 'text-indigo-400' : 'text-gray-300'
+                isActive ? 'active text-indigo-400' : 'text-white'
               }`
             }
           >
             {icon}
-            {location.pathname === path && (
-              <motion.div
-                layoutId='underline'
-                className='absolute left-0 right-0 top-5 h-1 rounded-full bg-indigo-400'
-                initial={false}
-                transition={{ type: 'spring', stiffness: 300, damping: 40 }}
-              />
-            )}
           </NavLink>
         ))}
+        <motion.div
+          className='absolute bottom-0 h-1 rounded-full bg-indigo-400'
+          animate={underlineStyle}
+          initial={false}
+          transition={{ type: 'spring', stiffness: 300, damping: 40 }}
+        />
       </div>
     </nav>
   );
