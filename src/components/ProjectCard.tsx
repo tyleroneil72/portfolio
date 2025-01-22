@@ -28,14 +28,15 @@ const ProjectCard = ({ project, image }: ProjectCardProps) => {
 
       <div className='mt-4 flex flex-1 flex-col'>
         <h3 className='text-2xl font-bold text-indigo-400'>{project.name}</h3>
-        <p className='mt-2 text-sm text-gray-300'>{project.description}</p>
-        <div className='mt-4 flex flex-wrap gap-2'>
-          {project.tags.map((tag, idx) => (
-            <span key={idx} className='rounded-full bg-indigo-500 px-3 py-1 text-xs font-semibold text-white'>
-              {tag}
-            </span>
-          ))}
-        </div>
+        <p className='mt-2 rounded-lg bg-indigo-500/20 p-3 text-sm text-indigo-100'>{project.description}</p>
+      </div>
+
+      <div className='mt-4 flex flex-wrap justify-center gap-2'>
+        {project.tags.map((tag, idx) => (
+          <span key={idx} className='rounded-full bg-indigo-500 px-3 py-1 text-xs font-semibold text-white'>
+            {tag}
+          </span>
+        ))}
       </div>
 
       <div className='mt-6 flex items-center justify-between'>
