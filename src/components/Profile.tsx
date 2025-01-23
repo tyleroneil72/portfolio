@@ -31,7 +31,7 @@ const Profile = () => {
         className='mb-4 h-[140px] w-[140px] rounded-full border-4 border-gray-700 object-cover md:h-[160px] md:w-[160px] lg:h-[180px] lg:w-[180px]'
       />
 
-      <h1 className='text-center text-xl font-bold leading-tight md:text-2xl lg:text-3xl'>Tyler O'Neil</h1>
+      <h1 className='text-center text-xl leading-tight font-bold md:text-2xl lg:text-3xl'>Tyler O'Neil</h1>
       <p className='mb-3 text-sm text-gray-400 md:text-base lg:text-lg'>
         S<Typewriter text='oftware Developer' delay={130} />
       </p>

@@ -53,7 +53,7 @@ const ProjectCard = ({ project, image }: ProjectCardProps) => {
             href={project.live}
             target='_blank'
             rel='noopener noreferrer'
-            className='rounded bg-indigo-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-600'
+            className='rounded-sm bg-indigo-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-600'
           >
             Live Demo
           </a>
