@@ -12,7 +12,7 @@ const Skills = () => {
         {skills.map((skill, index) => {
           const IconComponent = skillIcons[skill] || null;
           return (
-            <span key={index} className='flex items-center gap-2 rounded bg-indigo-500 px-3 py-1 text-sm shadow-md'>
+            <span key={index} className='flex items-center gap-2 rounded-sm bg-indigo-500 px-3 py-1 text-sm shadow-md'>
               {IconComponent && <IconComponent />}
               {skill}
             </span>

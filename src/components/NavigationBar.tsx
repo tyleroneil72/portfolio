@@ -42,7 +42,7 @@ const NavigationBar = () => {
   return (
     <nav
       ref={navRef}
-      className='fixed left-1/2 top-2 z-50 w-[80%] max-w-3xl -translate-x-1/2 transform rounded-full bg-gray-800 text-white shadow-md'
+      className='fixed top-2 left-1/2 z-50 w-[80%] max-w-3xl -translate-x-1/2 transform rounded-full bg-gray-800 text-white shadow-md'
     >
       <div className='relative flex justify-around py-2'>
         {routes.map(({ path, icon }) => (
