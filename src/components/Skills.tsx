@@ -8,7 +8,7 @@ const Skills = () => {
       <h2 className='mb-4 flex items-center gap-2 text-xl font-bold text-indigo-400'>
         <FaCode /> Skills
       </h2>
-      <div className='flex flex-1 flex-wrap gap-2 overflow-y-auto'>
+      <div className='scrollable flex flex-1 flex-wrap gap-2 overflow-y-auto'>
         {skills.map((skill, index) => {
           const IconComponent = skillIcons[skill] || null;
           return (

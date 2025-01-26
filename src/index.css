@@ -9,3 +9,21 @@ html {
   background: rgba(126, 121, 228, 0.6);
   color: #000;
 }
+
+.scrollable {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(126, 121, 228, 0.6) transparent;
+}
+
+.scrollable::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: rgba(126, 121, 228, 0.6);
+  border-radius: 4px;
+}

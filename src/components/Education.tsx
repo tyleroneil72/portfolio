@@ -7,7 +7,7 @@ const Education = () => {
       <h2 className='mb-4 flex items-center gap-2 text-xl font-bold text-indigo-400'>
         <FaGraduationCap /> Education
       </h2>
-      <div className='flex flex-1 flex-wrap justify-between space-y-4 overflow-y-auto'>
+      <div className='scrollable flex flex-1 flex-wrap justify-between space-y-4 overflow-y-auto'>
         <p className='text-sm'>
           <strong>{education.institution}</strong> - {education.program}
         </p>

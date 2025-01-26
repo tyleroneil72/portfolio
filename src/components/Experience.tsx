@@ -8,7 +8,7 @@ const Experience = () => {
         <FaBriefcase /> Experience
       </h2>
 
-      <div className='flex flex-1 flex-wrap justify-between space-y-4 overflow-y-auto'>
+      <div className='scrollable flex flex-1 flex-wrap justify-between space-y-4 overflow-y-auto'>
         {experience.map((job, index) => (
           <div key={index} className='w-full rounded-lg bg-slate-700 p-4 shadow-md'>
             <h3 className='font-bold'>
