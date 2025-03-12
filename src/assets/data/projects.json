@@ -13,6 +13,12 @@
     "tags": ["ASP.NET Core", "C#", "jQuery", "Twilio", "AWS", "Azure", "MySQL", "Bootstrap"]
   },
   {
+    "name": "Chat Room",
+    "description": "A real-time chatroom application using WebSockets. Features multi-room support and real-time messaging.",
+    "github": "https://github.com/tyleroneil72/chat-room",
+    "tags": ["React", "Express.js", "MongoDB", "Node.js", "TypeScript", "Tailwind CSS", "Socket.io"]
+  },
+  {
     "name": "Chat Bot",
     "description": "A chatbot application integrated with OpenAI's API to provide natural language processing capabilities. Built using React, Node.js, and Express.js.",
     "github": "https://github.com/tyleroneil72/react-chat-bot",
@@ -42,12 +48,6 @@
     "github": "https://github.com/tyleroneil72/sorting-algorithm-visualizer",
     "live": "https://htmlpreview.github.io/?https://github.com/tyleroneil72/sorting-algorithm-visualizer/blob/main/sorting_algorithms/index.html",
     "tags": ["JavaScript", "HTML", "CSS"]
-  },
-  {
-    "name": "Chat Room",
-    "description": "A real-time chatroom application using WebSockets. Features multi-room support and real-time messaging.",
-    "github": "https://github.com/tyleroneil72/chat-room",
-    "tags": ["React", "Node.js", "Typescript", "Socket.io", "Express.js"]
   },
   {
     "name": "Connect Four with Minimax",
