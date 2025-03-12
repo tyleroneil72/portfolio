@@ -13,6 +13,12 @@
     "tags": ["ASP.NET Core", "C#", "jQuery", "Twilio", "AWS", "Azure", "MySQL", "Bootstrap"]
   },
   {
+    "name": "Chat Room",
+    "description": "A real-time chatroom application using WebSockets. Features multi-room support and real-time messaging.",
+    "github": "https://github.com/tyleroneil72/chat-room",
+    "tags": ["React", "Express.js", "MongoDB", "Node.js", "TypeScript", "Tailwind CSS", "Socket.io"]
+  },
+  {
     "name": "Chat Bot",
     "description": "A chatbot application integrated with OpenAI's API to provide natural language processing capabilities. Built using React, Node.js, and Express.js.",
     "github": "https://github.com/tyleroneil72/react-chat-bot",
@@ -44,12 +50,6 @@
     "tags": ["JavaScript", "HTML", "CSS"]
   },
   {
-    "name": "Chat Room",
-    "description": "A real-time chatroom application using WebSockets. Features multi-room support and real-time messaging.",
-    "github": "https://github.com/tyleroneil72/chat-room",
-    "tags": ["React", "Node.js", "Typescript", "Socket.io", "Express.js"]
-  },
-  {
     "name": "Connect Four with Minimax",
     "description": "A Java implementation of Connect Four featuring AI built with the Minimax algorithm and alpha-beta pruning.",
     "github": "https://github.com/tyleroneil72/connect-four-mini-max",
@@ -58,7 +58,7 @@
   {
     "name": "Portfolio Website",
     "description": "This is my portfolio website built using Typescript, React (Vite), styled with Tailwind CSS, and hosted with Render. The site is designed to showcase my projects, skills, and experiences.",
-    "github": "https://github.com/tyleroneil72/portfolio-website",
+    "github": "https://github.com/tyleroneil72/portfolio",
     "tags": ["React", "Typescript", "Tailwind CSS", "Render"]
   },
   {
