@@ -14,7 +14,7 @@
   },
   {
     "name": "Chat Room",
-    "description": "A real-time chatroom application using WebSockets. Features multi-room support and real-time messaging.",
+    "description": "A real-time chat app with user authentication, MongoDB-backed message storage, room join/leave functionality, and typing indicators for 1-on-1 messaging. Sessions are managed with Local Storage, and all schemas include proper validation.",
     "github": "https://github.com/tyleroneil72/chat-room",
     "tags": ["React", "Express.js", "MongoDB", "Node.js", "TypeScript", "Tailwind CSS", "Socket.io"]
   },
