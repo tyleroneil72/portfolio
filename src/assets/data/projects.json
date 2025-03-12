@@ -58,7 +58,7 @@
   {
     "name": "Portfolio Website",
     "description": "This is my portfolio website built using Typescript, React (Vite), styled with Tailwind CSS, and hosted with Render. The site is designed to showcase my projects, skills, and experiences.",
-    "github": "https://github.com/tyleroneil72/portfolio-website",
+    "github": "https://github.com/tyleroneil72/portfolio",
     "tags": ["React", "Typescript", "Tailwind CSS", "Render"]
   },
   {
