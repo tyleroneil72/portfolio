@@ -7,7 +7,7 @@ import Skills from '../components/Skills';
 
 const Home = () => {
   return (
-    <div className='grid min-h-screen grid-cols-1 gap-4 overflow-y-auto bg-gray-900 p-4 pt-14 md:grid-cols-2 lg:h-screen lg:auto-rows-fr lg:grid-cols-6 lg:overflow-hidden'>
+    <div className='mx-auto grid min-h-screen max-w-screen-2xl grid-cols-1 gap-4 overflow-y-auto bg-gray-900 p-4 pt-14 md:grid-cols-2 lg:h-screen lg:auto-rows-fr lg:grid-cols-6 lg:overflow-hidden'>
       <div className='flex flex-col gap-4 md:col-span-2 lg:col-span-2 lg:row-span-3'>
         <div className='flex-1'>
           <Profile />
