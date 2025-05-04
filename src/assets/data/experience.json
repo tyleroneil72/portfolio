@@ -1,10 +1,30 @@
 [
   {
+    "role": "Software Developer",
+    "company": "Exchange Solutions Inc.",
+    "period": "May 2025 - Present",
+    "details": [
+      "Build and enhance loyalty program features for clients such as Esso, Rexall, and Suncor.",
+      "Work within an Agile team to deliver microservice-based features across multiple business units.",
+      "Collaborate closely with senior developers and product managers to translate business requirements into reliable, testable backend services and front-end components."
+    ]
+  },
+  {
+    "role": "Teaching Assistant",
+    "company": "George Brown College",
+    "period": "January 2024 - April 2025",
+    "details": [
+      "Assisted in teaching COMP1234 (Introduction to Web Development), COMP1235 (Introduction to Full Stack Development), and COMP2080 (Data Structures and Algorithms).",
+      "Provided lab support and guidance to students, helping them troubleshoot issues and understand core concepts.",
+      "Collaborated with professors to deliver effective course content and ensure student success."
+    ]
+  },
+  {
     "role": "Software Developer Intern",
     "company": "Exchange Solutions Inc.",
     "period": "May 2024 - August 2024",
     "details": [
-      "Developed features for both frontend and backend, working on the full stack of the loyalty product for clients such as Rexall and Esso",
+      "Developed features for both frontend and backend, working on the full stack of the loyalty product for clients such as Rexall, Esso, and Suncor.",
       "Used AWS Lambda and a serverless stack to build scalable microservices.",
       "Enhanced the user interface using React.js while improving API integrations on the backend."
     ]
