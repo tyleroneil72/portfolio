@@ -1,23 +1,6 @@
 {
-  "institution": "George Brown College",
-  "program": "Advanced Diploma, Computer Programming and Analysis",
-  "graduationDate": "April 2025",
-  "gpa": "3.85/4.0",
-  "involvementAndAchievements": [
-    {
-      "title": "Vice President",
-      "organization": "Computer Science Club",
-      "period": "2024 - 2025"
-    },
-    {
-      "title": "Academic Tutor",
-      "organization": "Mobihelp Program",
-      "period": "2024 - 2025"
-    },
-    {
-      "title": "Teaching Assistant",
-      "organization": "Full Stack Development and Data Structures and Algorithms",
-      "period": "2024 - 2025"
-    }
-  ]
+  "institution": "McMaster University",
+  "location": "Hamilton, Ontario, Canada",
+  "program": "BTech, Software Engineering Technology",
+  "description": "Pursuing part-time while working full-time as a developer."
 }
