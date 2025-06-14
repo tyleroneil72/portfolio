@@ -1,22 +1,20 @@
 import projectsData from '../assets/data/projects.json';
 import ProjectCard from '../components/ProjectCard';
 
-import connectFourImg from '../assets/images/connectFour.png';
+import chatRoomImg from '../assets/images/chatroom.png';
+import dotfilesImg from '../assets/images/dotfiles.png';
 import duordleImg from '../assets/images/duordle.png';
 import folderImg from '../assets/images/folder.png';
 import GPTerminalImg from '../assets/images/GPTerminal.png';
 import nestImg from '../assets/images/nest.png';
 import portfolioImg from '../assets/images/portfolio.png';
-import sortingImg from '../assets/images/sorting.jpeg';
-import webVoyagerImg from '../assets/images/webVoyager.png';
 
 const imageMap: Record<string, string> = {
   Nest: nestImg,
   Duordle: duordleImg,
   GPTerminal: GPTerminalImg,
-  'Web Voyager': webVoyagerImg,
-  'Sorting Algorithm Visualizer': sortingImg,
-  'Connect Four with Minimax': connectFourImg,
+  'Chat Room': chatRoomImg,
+  '.dotfiles': dotfilesImg,
   'Portfolio Website': portfolioImg,
   'Miscellaneous Projects': folderImg
 };

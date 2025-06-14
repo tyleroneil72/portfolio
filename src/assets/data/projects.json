@@ -1,8 +1,8 @@
 [
   {
     "name": "Nest",
-    "description": "Nest is a minimalist portfolio tracker built to help long-term investors visualize their wealth growth over time. It combines elegant charts, personalized projections, and an intuitive interface to help users build investment habits with intention and clarity.",
-    "tags": ["Next.js", "Next Auth.js", "Typescript", "Tailwind CSS", "Stripe", "Prisma", "PostgreSQL", "Vercel"]
+    "description": "Nest is a minimalist investment insights platform designed to help long-term investors understand and visualize their financial growth. With elegant charts, personalized projections, and a clear, intuitive interface, Nest empowers users to invest with purpose and stay focused on their long-term goals.",
+    "tags": ["Next.js", "Typescript", "Tailwind CSS", "Prisma", "PostgreSQL", "NextAuth.js", "Vercel", "Stripe"]
   },
   {
     "name": "Duordle",
@@ -13,28 +13,21 @@
   },
   {
     "name": "GPTerminal",
-    "description": "A CLI application for interactive conversations with GPT models. Supports Linux and MacOS terminals.",
+    "description": "GPTerminal is a CLI tool for interacting with OpenAI’s GPT directly from the terminal. It supports real-time conversations, configurable system prompts, and simple management of API keys. Designed for Linux and macOS.",
     "github": "https://github.com/tyleroneil72/GPTerminal",
     "tags": ["Python", "OpenAI API", "Command Line", "Linux", "MacOS"]
   },
   {
-    "name": "Web Voyager",
-    "description": "A comprehensive travel platform built with ASP.NET Core MVC. Includes secure user authentication with Microsoft's Identity Technology and offers booking for flights, hotels, and car rentals.",
-    "github": "https://github.com/tyleroneil72/web-voyager",
-    "tags": ["ASP.NET Core", "C#", "jQuery", "Twilio", "AWS", "Azure", "MySQL", "Bootstrap"]
+    "name": "Chat Room",
+    "description": "A real-time chat app with user authentication, MongoDB-backed message storage, room join/leave functionality, and typing indicators for 1-on-1 messaging. Sessions are managed with Local Storage, and all schemas include proper validation.",
+    "github": "https://github.com/tyleroneil72/chat-room",
+    "tags": ["React", "Express.js", "MongoDB", "Node.js", "TypeScript", "Tailwind CSS", "Socket.io"]
   },
   {
-    "name": "Sorting Algorithm Visualizer",
-    "description": "A web application to visualize sorting algorithms like Bubble Sort, Quick Sort, and more. Interactive and educational.",
-    "github": "https://github.com/tyleroneil72/sorting-algorithm-visualizer",
-    "live": "https://htmlpreview.github.io/?https://github.com/tyleroneil72/sorting-algorithm-visualizer/blob/main/sorting_algorithms/index.html",
-    "tags": ["JavaScript", "HTML", "CSS"]
-  },
-  {
-    "name": "Connect Four with Minimax",
-    "description": "A Java implementation of Connect Four featuring AI built with the Minimax algorithm and alpha-beta pruning.",
-    "github": "https://github.com/tyleroneil72/connect-four-mini-max",
-    "tags": ["Java", "Algorithm Design"]
+    "name": ".dotfiles",
+    "description": "A personal collection of dotfiles to help set up and maintain a consistent development environment across systems. This includes configurations for my terminal, editor, window management, and more. Primarily tailored for macOS environments.",
+    "github": "https://github.com/tyleroneil72/.dotfiles",
+    "tags": ["Lua", "Ruby", "Shell Script", "MacOS"]
   },
   {
     "name": "Portfolio Website",
@@ -46,6 +39,6 @@
     "name": "Miscellaneous Projects",
     "description": "Repository for my miscellaneous code, pet projects, or just code that doesn't fit into specific categories or projects.",
     "github": "https://github.com/tyleroneil72/misc-code",
-    "tags": ["Misc", "Python", "C#", "Bash"]
+    "tags": ["Misc", "Python", "Shell Script"]
   }
 ]
