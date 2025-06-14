@@ -1,28 +1,20 @@
 import projectsData from '../assets/data/projects.json';
 import ProjectCard from '../components/ProjectCard';
 
-import chatbotImg from '../assets/images/chatbot.jpeg';
-import chatRoomImg from '../assets/images/chatRoom.png';
-import connectFourImg from '../assets/images/connectFour.png';
+import chatRoomImg from '../assets/images/chatroom.png';
+import dotfilesImg from '../assets/images/dotfiles.png';
 import duordleImg from '../assets/images/duordle.png';
 import folderImg from '../assets/images/folder.png';
 import GPTerminalImg from '../assets/images/GPTerminal.png';
-import hrAndPayrollImg from '../assets/images/hrAndPayroll.png';
-import learningPathImg from '../assets/images/learningPath.png';
+import nestImg from '../assets/images/nest.png';
 import portfolioImg from '../assets/images/portfolio.png';
-import sortingImg from '../assets/images/sorting.jpeg';
-import webVoyagerImg from '../assets/images/webVoyager.png';
 
 const imageMap: Record<string, string> = {
+  Nest: nestImg,
   Duordle: duordleImg,
-  'Web Voyager': webVoyagerImg,
-  'Chat Bot': chatbotImg,
-  'Learning Path Creator': learningPathImg,
-  'HR & Payroll Management System': hrAndPayrollImg,
   GPTerminal: GPTerminalImg,
-  'Sorting Algorithm Visualizer': sortingImg,
   'Chat Room': chatRoomImg,
-  'Connect Four with Minimax': connectFourImg,
+  '.dotfiles': dotfilesImg,
   'Portfolio Website': portfolioImg,
   'Miscellaneous Projects': folderImg
 };

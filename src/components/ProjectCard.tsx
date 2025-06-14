@@ -3,7 +3,7 @@ import { FaGithub } from 'react-icons/fa';
 interface Project {
   name: string;
   description: string;
-  github: string;
+  github?: string;
   live?: string;
   tags: string[];
 }
@@ -40,14 +40,16 @@ const ProjectCard = ({ project, image }: ProjectCardProps) => {
       </div>
 
       <div className='mt-6 flex items-center justify-between'>
-        <a
-          href={project.github}
-          target='_blank'
-          rel='noopener noreferrer'
-          className='text-indigo-400 hover:text-indigo-500'
-        >
-          <FaGithub className='text-2xl' />
-        </a>
+        {project.github && (
+          <a
+            href={project.github}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-indigo-400 hover:text-indigo-500'
+          >
+            <FaGithub className='text-2xl' />
+          </a>
+        )}
         {project.live && (
           <a
             href={project.live}
