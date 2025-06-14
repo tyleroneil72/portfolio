@@ -1,5 +1,10 @@
 [
   {
+    "name": "Nest",
+    "description": "Nest is a minimalist portfolio tracker built to help long-term investors visualize their wealth growth over time. It combines elegant charts, personalized projections, and an intuitive interface to help users build investment habits with intention and clarity.",
+    "tags": ["Next.js", "Next Auth.js", "Typescript", "Tailwind CSS", "Stripe", "Prisma", "PostgreSQL", "Vercel"]
+  },
+  {
     "name": "Duordle",
     "description": "Duordle is an online game inspired by Wordle, offering a cooperative word-guessing experience. Built with React, Node.js, and TypeScript, it uses Socket.io for real-time gameplay and Tailwind CSS for responsive design.",
     "github": "https://github.com/tyleroneil72/duordle",
@@ -7,40 +12,16 @@
     "tags": ["React", "Express.js", "MongoDB", "Node.js", "TypeScript", "Tailwind CSS", "Socket.io", "Docker", "Jest"]
   },
   {
-    "name": "Web Voyager",
-    "description": "A comprehensive travel platform built with ASP.NET Core MVC. Includes secure user authentication with Microsoft's Identity Technology and offers booking for flights, hotels, and car rentals.",
-    "github": "https://github.com/tyleroneil72/web-voyager",
-    "tags": ["ASP.NET Core", "C#", "jQuery", "Twilio", "AWS", "Azure", "MySQL", "Bootstrap"]
-  },
-  {
-    "name": "Chat Room",
-    "description": "A real-time chat app with user authentication, MongoDB-backed message storage, room join/leave functionality, and typing indicators for 1-on-1 messaging. Sessions are managed with Local Storage, and all schemas include proper validation.",
-    "github": "https://github.com/tyleroneil72/chat-room",
-    "tags": ["React", "Express.js", "MongoDB", "Node.js", "TypeScript", "Tailwind CSS", "Socket.io"]
-  },
-  {
-    "name": "Chat Bot",
-    "description": "A chatbot application integrated with OpenAI's API to provide natural language processing capabilities. Built using React, Node.js, and Express.js.",
-    "github": "https://github.com/tyleroneil72/react-chat-bot",
-    "tags": ["React", "Node.js", "Express.js", "OpenAI API"]
-  },
-  {
-    "name": "Learning Path Creator",
-    "description": "A collaborative learning platform built with the LAMP stack. Uses Linux, Apache, MySQL, and PHP, with Bootstrap for responsive frontend design.",
-    "github": "https://github.com/tyleroneil72/learning-path-creator",
-    "tags": ["Linux", "Apache", "MySQL", "PHP", "Bootstrap"]
-  },
-  {
-    "name": "HR & Payroll Management System",
-    "description": "A JavaFX-based HR and Payroll system built with Maven. Features employee management, payroll tracking, and report generation.",
-    "github": "https://github.com/tyleroneil72/hr-payroll-system",
-    "tags": ["Java", "JavaFX", "Maven"]
-  },
-  {
     "name": "GPTerminal",
     "description": "A CLI application for interactive conversations with GPT models. Supports Linux and MacOS terminals.",
     "github": "https://github.com/tyleroneil72/GPTerminal",
     "tags": ["Python", "OpenAI API", "Command Line", "Linux", "MacOS"]
+  },
+  {
+    "name": "Web Voyager",
+    "description": "A comprehensive travel platform built with ASP.NET Core MVC. Includes secure user authentication with Microsoft's Identity Technology and offers booking for flights, hotels, and car rentals.",
+    "github": "https://github.com/tyleroneil72/web-voyager",
+    "tags": ["ASP.NET Core", "C#", "jQuery", "Twilio", "AWS", "Azure", "MySQL", "Bootstrap"]
   },
   {
     "name": "Sorting Algorithm Visualizer",
