@@ -1,7 +1,7 @@
 import projectsData from '../assets/data/projects.json';
 import ProjectCard from '../components/ProjectCard';
 
-import chatRoomImg from '../assets/images/chatroom.png';
+import chatRoomImg from '../assets/images/chatRoom.png';
 import dotfilesImg from '../assets/images/dotfiles.png';
 import duordleImg from '../assets/images/duordle.png';
 import folderImg from '../assets/images/folder.png';
