@@ -4,9 +4,10 @@
     "company": "Exchange Solutions Inc.",
     "period": "May 2025 - Present",
     "details": [
-      "Build and enhance loyalty program features for clients such as Esso, Rexall, and Suncor.",
-      "Work within an Agile team to deliver microservice-based features across multiple business units.",
-      "Collaborate closely with senior developers and product managers to translate business requirements into reliable, testable backend services and front-end components."
+      "Develop scalable features for a loyalty platform, contributing across frontend (React, TypeScript) and backend (AWS serverless microservices, TypeScript) in a production environment.",
+      "Ensure code quality and reliability by writing and maintaining unit tests and participating in peer code reviews.",
+      "Apply Agile methodologies to drive new feature development, optimize system performance, and ensure code maintainability.",
+      "Work closely with senior engineers and product owners to deliver solutions impacting millions of end users."
     ]
   },
   {
@@ -24,29 +25,26 @@
     "company": "Exchange Solutions Inc.",
     "period": "May 2024 - August 2024",
     "details": [
-      "Developed features for both frontend and backend, working on the full stack of the loyalty product for clients such as Rexall, Esso, and Suncor.",
-      "Used AWS Lambda and a serverless stack to build scalable microservices.",
-      "Enhanced the user interface using React.js while improving API integrations on the backend."
+      "Contributed to both frontend (React, TypeScript) and backend (AWS serverless microservices, TypeScript) development on a production-grade loyalty platform.",
+      "Developed practical skills in cloud infrastructure (AWS), CI/CD (Jenkins), and Atlassian tools in a collaborative, fast-paced environment."
     ]
   },
   {
     "role": "Software Developer Intern (Innovation Labs)",
     "company": "Exchange Solutions Inc.",
-    "period": "May 2023 - August 2023",
+    "period": "May 2023 - September 2023",
     "details": [
-      "Prototyped innovative features and proof-of-concept applications for internal tools.",
-      "Collaborated with the team to design scalable REST APIs and interactive user interfaces.",
-      "Explored cutting-edge technologies and frameworks to enhance development workflows."
+      "Developed proof-of-concept Retrieval Augmented Generation (RAG) AI agents using Node.js and OpenAI APIs in direct collaboration with the Director of Innovation Labs.",
+      "Conducted research and rapid prototyping that contributed to the adoption of generative AI capabilities in the company's core loyalty product."
     ]
   },
   {
-    "role": "Frontend Developer Intern",
-    "company": "PresenTEC",
-    "period": "September 2022 - December 2022",
+    "role": "Front-End Developer Intern",
+    "company": "PresenTEC Solutions",
+    "period": "December 2022 - April 2023",
     "details": [
-      "Designed and developed user interfaces for the company's main product using Wordpress",
-      "Implemented responsive designs and optimized frontend performance.",
-      "Utilized HTML and CSS to fine-tune website layouts and styles"
+      "Maintained and improved company website functionality using WordPress and custom development.",
+      "Implemented UI improvements following company brand guidelines to ensure a consistent user experience."
     ]
   }
 ]
