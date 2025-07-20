@@ -40,26 +40,30 @@ const ProjectCard = ({ project, image }: ProjectCardProps) => {
       </div>
 
       <div className='mt-6 flex items-center justify-between'>
-        {project.github && (
-          <a
-            href={project.github}
-            target='_blank'
-            rel='noopener noreferrer'
-            className='text-indigo-400 hover:text-indigo-500'
-          >
-            <FaGithub className='text-2xl' />
-          </a>
-        )}
-        {project.live && (
-          <a
-            href={project.live}
-            target='_blank'
-            rel='noopener noreferrer'
-            className='rounded-sm bg-indigo-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-600'
-          >
-            Live Demo
-          </a>
-        )}
+        <div>
+          {project.github && (
+            <a
+              href={project.github}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-indigo-400 hover:text-indigo-500'
+            >
+              <FaGithub className='text-2xl' />
+            </a>
+          )}
+        </div>
+        <div>
+          {project.live && (
+            <a
+              href={project.live}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='rounded-sm bg-indigo-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-600'
+            >
+              View Project
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );

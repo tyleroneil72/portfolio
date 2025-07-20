@@ -2,6 +2,7 @@
   {
     "name": "Nest",
     "description": "Nest is a minimalist investment insights platform designed to help long-term investors understand and visualize their financial growth. With elegant charts, personalized projections, and a clear, intuitive interface, Nest empowers users to invest with purpose and stay focused on their long-term goals.",
+    "live": "https://nest.software",
     "tags": ["Next.js", "Typescript", "Tailwind CSS", "Prisma", "PostgreSQL", "NextAuth.js", "Vercel", "Stripe"]
   },
   {
