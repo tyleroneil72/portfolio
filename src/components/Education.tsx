@@ -8,7 +8,7 @@ const Education = () => {
         <FaGraduationCap /> Education
       </h2>
 
-      <div className='flex-1 text-base leading-relaxed text-white md:text-lg lg:text-xl'>
+      <div className='scrollable flex-1 overflow-y-auto pr-2 text-base leading-relaxed text-white md:text-lg lg:text-xl'>
         <p className='font-bold text-white'>{education.institution}</p>
         <p className='font-medium text-indigo-300'>{education.program}</p>
 
