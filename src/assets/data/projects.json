@@ -8,38 +8,38 @@
   {
     "name": "Duordle",
     "description": "Duordle is an online game inspired by Wordle, offering a cooperative word-guessing experience. Built with React, Node.js, and TypeScript, it uses Socket.io for real-time gameplay and Tailwind CSS for responsive design.",
-    "github": "https://github.com/tyleroneil72/duordle",
+    "github": "https://github.com/tyleroneildev/duordle",
     "live": "https://duordle.net",
     "tags": ["React", "Express.js", "MongoDB", "Node.js", "TypeScript", "Tailwind CSS", "Socket.io", "Docker", "Jest"]
   },
   {
     "name": "GPTerminal",
     "description": "GPTerminal is a CLI tool for interacting with OpenAI’s GPT directly from the terminal. It supports real-time conversations, configurable system prompts, and simple management of API keys. Designed for Linux and macOS.",
-    "github": "https://github.com/tyleroneil72/GPTerminal",
+    "github": "https://github.com/tyleroneildev/GPTerminal",
     "tags": ["Python", "OpenAI API", "Command Line", "Linux", "MacOS"]
   },
   {
     "name": "Chat Room",
     "description": "A real-time chat app with user authentication, MongoDB-backed message storage, room join/leave functionality, and typing indicators for 1-on-1 messaging. Sessions are managed with Local Storage, and all schemas include proper validation.",
-    "github": "https://github.com/tyleroneil72/chat-room",
+    "github": "https://github.com/tyleroneildev/chat-room",
     "tags": ["React", "Express.js", "MongoDB", "Node.js", "TypeScript", "Tailwind CSS", "Socket.io"]
   },
   {
     "name": ".dotfiles",
     "description": "A personal collection of dotfiles to help set up and maintain a consistent development environment across systems. This includes configurations for my terminal, editor, window management, and more. Primarily tailored for macOS environments.",
-    "github": "https://github.com/tyleroneil72/.dotfiles",
+    "github": "https://github.com/tyleroneildev/.dotfiles",
     "tags": ["Lua", "Ruby", "Shell Script", "MacOS"]
   },
   {
     "name": "Portfolio Website",
     "description": "This is my portfolio website built using Typescript, React (Vite), styled with Tailwind CSS, and hosted with Render. The site is designed to showcase my projects, skills, and experiences.",
-    "github": "https://github.com/tyleroneil72/portfolio",
+    "github": "https://github.com/tyleroneildev/portfolio",
     "tags": ["React", "Typescript", "Tailwind CSS", "Render"]
   },
   {
     "name": "Miscellaneous Projects",
     "description": "Repository for my miscellaneous code, pet projects, or just code that doesn't fit into specific categories or projects.",
-    "github": "https://github.com/tyleroneil72/misc-code",
+    "github": "https://github.com/tyleroneildev/misc-code",
     "tags": ["Misc", "Python", "Shell Script"]
   }
 ]
