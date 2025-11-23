@@ -51,7 +51,7 @@ const Profile = () => {
 
       <div className='mb-6 flex space-x-5'>
         <a
-          href='https://github.com/tyleroneil72'
+          href='https://github.com/tyleroneildev'
           target='_blank'
           rel='noopener noreferrer'
           className='text-xl text-indigo-400 transition-all hover:text-indigo-500 lg:text-2xl'

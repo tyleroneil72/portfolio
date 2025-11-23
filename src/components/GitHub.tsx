@@ -21,7 +21,7 @@ const GitHub = () => {
   return (
     <div className='scrollable flex w-full items-center justify-center rounded-lg bg-gray-800 p-4 shadow-md'>
       <GitHubCalendar
-        username='tyleroneil72'
+        username='tyleroneildev'
         fontSize={13}
         blockSize={14}
         blockMargin={2}
